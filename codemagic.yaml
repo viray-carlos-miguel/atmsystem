@@ -16,7 +16,7 @@ workflows:
       # Decode key.properties from Base64
       - name: Decode key.properties
         script: |
-          echo "$CM_KEYPROPERTIES" | base64 --decode > android/key.properties
+          echo "$CM_KEYPROPERTIES" | base64 --decode >key.properties
 
       # Decode keystore from Base64
       - name: Decode keystore
