@@ -1,4 +1,4 @@
-package com.dev.cashngo;
+package com.dev.cashNgo;
 
 import io.flutter.embedding.android.FlutterActivity;
 

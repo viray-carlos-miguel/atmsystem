@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dev.cashngo"
+    namespace = "com.dev.cashNgo"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.dev.cashngo"
+        applicationId = "com.dev.cashNgo"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
