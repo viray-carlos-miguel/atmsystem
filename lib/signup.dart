@@ -21,7 +21,7 @@ class SignupPage extends StatelessWidget {
 
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.1.251/atm/signup.php'), // Update if needed
+        Uri.parse('https://cashngo.space/atm/signup.php'), // Update if needed
         body: {
           'username': username,
           'email': email,

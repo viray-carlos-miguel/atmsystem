@@ -21,7 +21,7 @@ class _HistoryPageState extends State<HistoryPage> {
   }
 
   Future<void> _fetchHistory() async {
-    final url = Uri.parse("http://192.168.1.251/atm/history.php");
+    final url = Uri.parse("https://cashngo.space/atm/history.php");
 
     try {
       final response = await http.post(

@@ -50,7 +50,7 @@ class _PayBillsPageState extends State<PayBillsPage> {
 
     setState(() => _isLoading = true);
 
-    final url = Uri.parse("http://192.168.1.251/atm/pay_bills.php");
+    final url = Uri.parse("https://cashngo.space/atm/pay_bills.php");
 
     try {
       final response = await http.post(url, body: {

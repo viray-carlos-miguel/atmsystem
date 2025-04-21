@@ -57,7 +57,7 @@ class _TransferPageState extends State<TransferPage> {
 
     setState(() => _isLoading = true);
 
-    final url = Uri.parse("http://192.168.1.251/atm/transfer.php");
+    final url = Uri.parse("https://cashngo.space/atm/transfer.php");
 
     try {
       final response = await http.post(url, body: {

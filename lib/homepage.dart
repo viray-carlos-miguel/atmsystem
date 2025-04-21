@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> _fetchRecentTransactions() async {
-    final url = Uri.parse("http://192.168.1.251/atm/get_recent_transactions.php?user_id=${widget.userId}");
+    final url = Uri.parse("https://cashngo.space/atm/get_recent_transactions.php?user_id=${widget.userId}");
 
     try {
       final response = await http.get(url);

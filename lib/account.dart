@@ -23,7 +23,7 @@ class _AccountPageState extends State<AccountPage> {
   }
 
   Future<void> _fetchUserInfo() async {
-    final url = Uri.parse('http://192.168.1.251/atm/get_user.php?id=${widget.userId}');
+    final url = Uri.parse('https://cashngo.space/atm/get_user.php?id=${widget.userId}');
     try {
       final response = await http.get(url);
 
