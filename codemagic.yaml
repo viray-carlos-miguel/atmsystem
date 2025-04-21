@@ -16,12 +16,12 @@ workflows:
       # Decode key.properties from Base64
       - name: Decode key.properties
         script: |
-          echo "$CM_KEYPROPERTIES" | base64 --decode >key.properties
+          echo "$CM_KEY_PROPERTIES" | base64 --decode > android/key.properties
 
       # Decode keystore from Base64
       - name: Decode keystore
         script: |
-          echo "$CM_BASE64" | base64 --decode > android/app/my-release-key.jks
+          echo "$CM_BASE64" | base64 --decode > android/app/cashngo_keystore.jks
 
       # Build AAB in release mode (ensure release flag is set)
       - name: Build AAB

@@ -1,4 +1,4 @@
-package com.example.atmapp;
+package com.dev.cashngo;
 
 import io.flutter.embedding.android.FlutterActivity;
 
